@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HQ Wallpaper</string>
+    <string name="whoops">Whoops</string>
+    <string name="unable_to_fetch_data_from_server_please_check_your_internet_connection_and_try_again_later">Unable to fetch data from Server, Please check your internet connection and try again later</string>
+    <string name="retry">Retry</string>
+    <string name="no_favorites_found">No favorites found</string>
+    <string name="set_as_wallpaper">Set as Wallpaper</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/errorLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:visibility="gone"
+    tools:visibility="visible"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/ivError"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/ic_baseline_cloud_off_24"/>
+    <TextView
+        android:id="@+id/tvWhoops"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whooops"
+        android:textStyle="bold"
+        android:textColor="#212121"
+        android:textSize="22sp"/>
+    <TextView
+        android:id="@+id/tvError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unable to fetch data from Server, Please check your internet connection and try again later"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btnRetry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF0000"
+        android:text="Retry"/>
+
+</LinearLayout>

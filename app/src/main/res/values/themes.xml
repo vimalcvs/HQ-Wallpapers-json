@@ -1,0 +1,9 @@
+<resources>
+
+    <style name="Theme.HQWallpaper" parent="Theme.Material3.DayNight">
+
+    </style>
+    <style name="Theme.NoHQWallpaper" parent="Theme.Material3.DayNight.NoActionBar">
+
+    </style>
+</resources>

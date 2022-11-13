@@ -1,0 +1,4 @@
+<resources>
+    <style name="Theme.HQWallpaper" parent="Theme.Material3.DayNight">
+    </style>
+</resources>
